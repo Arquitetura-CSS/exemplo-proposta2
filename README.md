@@ -6,7 +6,7 @@ Nesse projeto foi exemplificado o uso de uma página de um projeto qualquer com 
 - [BEM (Block-Element-Modifier)](http://getbem.com/)
 
 Acesse o exemplo na prática dessa proposta:
-[Exemplo proposta 2]()
+[Exemplo proposta 2](https://arquitetura-css.github.io/exemplo-proposta2/module/modal.html)
 
 Acesse o documento elaborado na construção dessa proposta:
 [Arquitetura para CSS](https://docs.google.com/presentation/d/1jeDv0iAJrQ9jocTBRTm_CugquknrQU6OuLsgkAkTyHo/edit?usp=sharing)
