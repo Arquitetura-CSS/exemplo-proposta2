@@ -1,0 +1,24 @@
+html, 
+body, 
+label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: $color__main_text;
+    font-family: $font__main_textFamily;
+    font-size: $font__main_textSize;
+    line-height: $font__main_textLineHeight;  
+}
+
+.content {
+    margin: $margin__content;
+}
+
+.title {
+    font-size: $font__headline_titleSize;
+    font-weight: $font__headline_titleWeight;
+    line-height: $font__headline_titleLineHeight;
+}

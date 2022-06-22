@@ -1,0 +1,44 @@
+/* variáveis para o TEXTO em geral dos projetos */
+$color__main_text: #5A5A5A;
+$font__main_textFamily: 'Lato', sans-serif;
+$font__main_textLineHeight: 1.21rem; /* 17.03px */
+$font__main_textSize: 0.88rem; /* 14.08px */
+$margin__content: 30px;
+
+/* variáveis para o TÍTULO da página */
+$font__headline_titleLineHeight: 2.2rem; /* 30.97px */
+$font__headline_titleSize: 1.85rem; /* 26.048px */
+$font__headline_titleWeight: bold; 
+
+/* variáveis para a MODAL  */
+$align__modalFooter_button: right;
+$border__modal_style: solid;
+$border__modal_radius: 5px;
+$border__modal_width: 1px;
+$border__modalHeader_style: solid;
+$border__modalHeader_width: 1px;
+$border__modalFooter_style: solid;
+$border__modalFooter_width: 1px;
+$color__modal_BackgroundBefore: rgba(0,0,0,0.6);
+$color__modal_Background:#fefefe;
+$color__modal_border: #555555;
+$color__modalHeader_border: #eaeaea;
+$color__modalFooter_border: #eaeaea;
+$font__modal_titleLineHeight: 1.85rem; /* 26.048px */
+$font__modal_titleSize: 1.57rem; /* 22.10px */
+$margin__modalHeader_title: 0;
+$padding__modal: 20px;
+
+/* variáveis para o BOTÃO */
+$border__button_style: solid;
+$border__button_radius: 4px;
+$border__button_width: 1px;
+$color__button_border: rgba(0, 0, 0, 0.1);
+$color__button_background--primary: #404040;
+$color__button_text--primary: #FFFFFF;
+$color__button_background--primary-hover: #333333;
+$color__button_text--primary-hover: #FFFFFF;
+$font__button_textWeight: bold; 
+$height__button: 34px;
+$margin__button_iconText: 0 10px 0 0;
+$padding__button: 8px 12px;

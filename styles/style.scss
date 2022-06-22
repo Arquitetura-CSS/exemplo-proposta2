@@ -1,0 +1,9 @@
+/* Configurações básicas do projeto */
+@use 'abstracts/index';
+
+/* Classes individuais e elementos pequenos e reutilizáveis */
+@use 'base/index';
+
+/* Components como buttons, links, acordion, container */
+@import 'components/button';
+@import 'components/modal';
