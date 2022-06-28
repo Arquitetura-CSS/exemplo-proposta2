@@ -1,24 +1,23 @@
-html, 
-body, 
-label {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@use "../abstracts/" as *;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
 }
 
 html {
-    color: $color__main_text;
-    font-family: $font__main_textFamily;
-    font-size: $font__main_textSize;
-    line-height: $font__main_textLineHeight;  
+    font-size: $default-font-size;
 }
 
-.content {
-    margin: $margin__content;
-}
-
-.title {
-    font-size: $font__headline_titleSize;
-    font-weight: $font__headline_titleWeight;
-    line-height: $font__headline_titleLineHeight;
+body {
+    color: $c-main-text;
+    font-family: $main-font;
+    font-size: rem(14);
+    line-height: rem(17);
 }
