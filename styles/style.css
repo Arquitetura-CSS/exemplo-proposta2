@@ -1,6 +1,6 @@
 @charset "UTF-8";
-/* Variáveis de cores*/
-/* Variáveis de font*/
+/* Variáveis de cores */
+/* Variáveis de fontes */
 *,
 *::after,
 *::before {
@@ -34,10 +34,8 @@ body {
 }
 
 .button {
+  border: 0.0625rem solid rgba(0, 0, 0, 0.1);
   border-radius: 0.25rem;
-  border-color: rgba(0, 0, 0, 0.1);
-  border-style: solid;
-  border-width: 0.0625rem;
   cursor: pointer;
   display: inline-block;
   font-weight: bold;
@@ -67,7 +65,7 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 101;
+  z-index: 1;
 }
 .modal--open:checked ~ .modal:before, .modal--open:checked ~ .modal--overlay {
   display: block;
@@ -84,11 +82,11 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 102;
+  z-index: 2;
 }
 .modal__dialog {
   background: #fefefe;
-  border: 0.0625rem solid #555555;
+  border: 0.0625rem solid #DDDDDD;
   border-radius: 0.3125rem;
   position: fixed;
   left: 50%;
@@ -97,10 +95,10 @@ body {
   transition: transform 0.6s ease-in-out;
   width: 80%;
   max-width: 600px;
-  z-index: 103;
+  z-index: 3;
 }
 .modal__header {
-  border-bottom: 0.0625rem solid #eaeaea;
+  border-bottom: 0.0625rem solid #DDDDDD;
 }
 .modal__header, .modal__footer, .modal__body {
   padding: 1.25rem;
@@ -111,7 +109,7 @@ body {
   line-height: 1.625rem;
 }
 .modal__footer {
-  border-top: 0.0625rem solid #eaeaea;
+  border-top: 0.0625rem solid #DDDDDD;
   text-align: right;
 }
 

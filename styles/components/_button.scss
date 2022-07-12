@@ -1,10 +1,8 @@
 @use "../abstracts/" as *;
 
 .button {
+    border: rem(1) solid rgba(0, 0, 0, 0.1);
     border-radius: rem(4);    
-    border-color: $c-button-border;
-    border-style: solid;
-    border-width: rem(1);
     cursor: pointer;
     display: inline-block;
     font-weight: bold;
@@ -13,12 +11,12 @@
     white-space: nowrap;
 
     &--primary {
-        color: $c-button-text-primary;
-        background: $c-button-bg-primary;
+        color: $c-neutral;
+        background: #404040;
 
         &:hover {
-            color: $c-button-text-primary-hover;
-            background: $c-button-bg-primary-hover;
+            color: $c-neutral;
+            background: #333333;
             text-decoration: none;
         }
     }

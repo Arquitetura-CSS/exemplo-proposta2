@@ -12,12 +12,12 @@ body {
 }
 
 html {
-    font-size: $default-font-size;
+    font-size: $f-size-default;
 }
 
 body {
-    color: $c-main-text;
-    font-family: $main-font;
+    color: $c-text-main;
+    font-family: $f-family-main;
     font-size: rem(14);
     line-height: rem(17);
 }

@@ -14,7 +14,7 @@
 // Change px to rem
 @function rem($value) {
   @if unitless($value) {
-    $base-size: base($default-font-size);
+    $base-size: base($f-size-default);
     @return math.div($value, $base-size) * 1rem;
   }
 
