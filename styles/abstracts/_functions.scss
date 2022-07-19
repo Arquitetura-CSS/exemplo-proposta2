@@ -20,7 +20,3 @@
 
   @error "Sorry, this '#{$value}' must have not any unit";
 }
-
-@function theme-get($key) {
-  @return map-get($theme-map, $key);
-}
