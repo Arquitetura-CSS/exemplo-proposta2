@@ -1,6 +1,5 @@
 @use "sass:math";
 @use "variables" as *;
-@use "./mixins" as *;
 
 // Set base font size
 @function base($base-font-size) {

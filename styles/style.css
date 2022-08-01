@@ -43,7 +43,12 @@ body {
   text-decoration: none;
 }
 .button__icon {
-  margin-bottom: 0.625rem;
+  margin-right: 0.625rem;
+}
+@media (max-width: 950px) {
+  .button {
+    background-color: red;
+  }
 }
 
 .modal:before {
@@ -455,6 +460,6 @@ template {
 /* Classes individuais e elementos pequenos e reutilizáveis */
 /* Components como buttons, links, acordion, container */
 /* Seções das páginas */
-/* Components como buttons, links, acordion, container */
+/* Soluções de terceiros */
 
 /*# sourceMappingURL=style.css.map */

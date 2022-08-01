@@ -6,3 +6,10 @@ $c-border: #DDDDDD;
 /* Variáveis de fontes */
 $f-size-default: 100%;
 $f-family-main: 'Lato', sans-serif;
+
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+  'huge': 1280px,
+);
